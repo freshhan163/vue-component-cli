@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "jsx": "preserve",
+        "target": "ES2019",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "noImplicitThis": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+    },
+    "include": [
+        "types/**/*",
+        "src/**/*",
+        "cli-custom/**/*"
+    ],
+    "exclude": [
+        "**/*.spec.ts",
+        "**/*.spec.js",
+        "node_modules"
+    ]
+}

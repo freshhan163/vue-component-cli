@@ -1,3 +1,7 @@
+/**
+ * @file index.js
+ * @desc 使用doc-vue库，解析vue（template + defineComponent）文件
+ */
 const docvue = require('doc-vue');
 const path = require('path');
 const fs = require('fs');

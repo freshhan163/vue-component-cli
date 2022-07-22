@@ -13,6 +13,7 @@
 
 <script setup lang="ts">
 const props = withDefaults(defineProps<{
+    // @doc name of crud
     type?: string,
     size?: string,
     nativeType?: 'button' | 'submit',
@@ -25,13 +26,19 @@ const props = withDefaults(defineProps<{
 });
 
 const emit = defineEmits<{
+    // @doc click Events
     (e: 'click', event: any): void,
 }>();
 
+// @doc click函数
 function click($event) {
     // click函数，$event参数
     emit('click', $event);
 }
 </script>
 
-<style></style>
+<style lang="less" scoped>
+.name {
+    color: pink;
+}
+</style>

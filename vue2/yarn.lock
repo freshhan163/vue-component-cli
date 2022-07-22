@@ -227,6 +227,16 @@ to-fast-properties@^2.0.0:
   resolved "https://npm.corp.kuaishou.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
 
+vue-class-component@^7.2.6:
+  version "7.2.6"
+  resolved "https://npm.corp.kuaishou.com/vue-class-component/-/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
+  integrity sha1-hHHgN7jkdi9aRkaG4Z5a/HCFAuQ=
+
+vue-property-decorator@^10.0.0-rc.2:
+  version "10.0.0-rc.2"
+  resolved "https://npm.corp.kuaishou.com/vue-property-decorator/-/vue-property-decorator-10.0.0-rc.2.tgz#8833403e8cc5201452f19fb73b9d9beca21ea8fc"
+  integrity sha1-iDNAPozFIBRS8Z+3O52b7KIeqPw=
+
 vue-template-compiler@^2.6.11, vue-template-compiler@^2.6.14:
   version "2.6.14"
   resolved "https://npm.corp.kuaishou.com/vue-template-compiler/-/vue-template-compiler-2.6.14.tgz#a2f0e7d985670d42c9c9ee0d044fed7690f4f763"
